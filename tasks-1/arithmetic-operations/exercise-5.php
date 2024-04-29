@@ -13,9 +13,7 @@
  */
 
 $number = rand(1, 100);
-echo "I'm thinking of a number between 1-100.  Try to guess it.\n";
-$userInput = trim(fgets(STDIN));
-$userNumber = (int)$userInput;
+$userNumber = (int) readline("I'm thinking of a number between 1-100.  Try to guess it. ");
 if ($userNumber === $number) {
     echo "You guessed it!  What are the odds?!?";
 } elseif ($userNumber > $number) {

@@ -21,7 +21,7 @@ class FizzBuzz
     private int $number;
     private array $numberList;
 
-    public function phoneInput()
+    public function askInput()
     {
         $this->number = (int)readline("Enter number (1-100): ");
         $this->validateInput();
@@ -60,7 +60,7 @@ class FizzBuzz
 
 try {
     $fizzBuzzOne = new FizzBuzz();
-    $fizzBuzzOne->phoneInput();
+    $fizzBuzzOne->askInput();
     $fizzBuzzOne->createNumberList();
     $fizzBuzzOne->setResult();
 } catch (InvalidArgumentException $exception) {

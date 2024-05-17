@@ -22,6 +22,10 @@ If you find any issues or have suggestions for improvement, feel free to open an
 
 ### PHP projects in other repositories
 
+[Exchange API](https://github.com/ievasinke/exchange-API)
+
+[Weather API](https://github.com/ievasinke/weather-API)
+
 [Slot Machine](https://github.com/ievasinke/slot-machine)
 
 [Simple Store](https://github.com/ievasinke/simple-store)
